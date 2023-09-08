@@ -9,6 +9,22 @@ export default function Work() {
         <label className="company-name">Company Name :</label>
         <input type="text" />
       </div>
+      <div className="input-container">
+        <label className="Duration">From :</label>
+        <input type="date" />
+      </div>
+      <div className="input-container">
+        <label className="Duration">To :</label>
+        <input type="date" />
+      </div>
+      <div className="input-container">
+        <label className="Position">Position :</label>
+        <input type="text" />
+      </div>
+      <div className="input-container">
+        <label className="Location">Location :</label>
+        <input type="text" />
+      </div>
       </form>
     </div>
   );
