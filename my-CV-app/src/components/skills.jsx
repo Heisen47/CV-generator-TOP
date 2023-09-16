@@ -18,7 +18,7 @@ export default function Skills() {
           ></textarea>
         </div>
         <div className="CV">
-          <h1 className="upload">Upload CV</h1>
+          <h1 className="upload">Image </h1>
           <input type="file" id="fileInput" style={{ display: "none" }} ></input>
           <button id="btn" onClick={handleFileUpload}>
             Upload
